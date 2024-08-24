@@ -10,9 +10,3 @@ def introspection_info(obj):
 
 number_info = introspection_info(42)
 print(number_info)
-
-string_info = introspection_info('Hello')
-print(string_info)
-
-list_info = introspection_info([1, 20, 4.0, 'word'])
-print(list_info)
